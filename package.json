@@ -1,0 +1,22 @@
+{
+  "name": "zerotomastery",
+  "version": "1.0.0",
+  "description": "Exercises in the Zero to mastery course By Andrie",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/akshathareddy/ZeroToMastery.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/akshathareddy/ZeroToMastery/issues"
+  },
+  "homepage": "https://github.com/akshathareddy/ZeroToMastery#readme",
+  "dependencies": {
+    "lodash": "^4.17.15"
+  }
+}
