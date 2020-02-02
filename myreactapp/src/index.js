@@ -1,21 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import CardList from './CardList';
-import { robots } from './robots';
+
+import App from './App';
 
 import 'tachyons';
 
 import * as serviceWorker from './serviceWorker';
 
-ReactDOM.render(
-	<React-Fragment>
-		<div className="tc code">
-			<h1 className="blue">Robot Friends</h1>
-			<p>Search <input type="text"/> </p>
-		</div>
-		<CardList
-			robots={robots}/>
-	</React-Fragment>
-	, document.getElementById('root'));
+ReactDOM.render(<App />, document.getElementById('root'));
+
+if(module.hot)
+	module.hot.accept();
 serviceWorker.unregister();
