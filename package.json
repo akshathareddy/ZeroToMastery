@@ -1,5 +1,6 @@
 {
   "name": "zerotomastery",
+  "homepage": "https://github.com/akshathareddy/ZeroToMastery",
   "version": "1.0.0",
   "description": "Exercises in the Zero to mastery course By Andrie",
   "main": "index.js",
@@ -15,8 +16,8 @@
   "bugs": {
     "url": "https://github.com/akshathareddy/ZeroToMastery/issues"
   },
-  "homepage": "https://github.com/akshathareddy/ZeroToMastery#readme",
   "dependencies": {
+    "gh-pages": "^2.2.0",
     "lodash": "^4.17.15"
   }
 }
